@@ -22,15 +22,15 @@ set -e
 
 
 echo "Installing category Accessories"
+#sh AUR/install-cool-retro-term-v*.sh   # is a terminal emulator which mimics the look and feel of the old cathode tube screens
+#sh AUR/install-mintstick-git-v*.sh     # Actually mintstick is an improved version of USB-ImageWriter
+sh AUR/install-conky-lua-archers-v*.sh # A free, light-weight system monitor for X with lua enabled for Arch based distros
+sh AUR/install-temps-v*.sh             # Temps is a modern and minimal menubar application with actual weather information and forecast
 
-sh AUR/install-conky-lua-archers-v*.sh
-sh AUR/install-cool-retro-term-v*.sh
-sh AUR/install-mintstick-git-v*.sh
-sh AUR/install-temps-v*.sh
 
 echo "Installing category Development"
+#sh AUR/install-sublime-text-v*.sh
 
-sh AUR/install-sublime-text-v*.sh
 
 echo "Installing category Education"
 
@@ -42,12 +42,10 @@ echo "Installing category Graphics"
 
 
 echo "Installing category Internet"
-
-sh AUR/install-vivaldi-and-ffmeg-codecs-v*.sh
+#sh AUR/install-vivaldi-and-ffmeg-codecs-v*.sh
 
 
 echo "Installing category Multimedia"
-
 sh AUR/install-gradio-v*.sh
 sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
@@ -60,7 +58,6 @@ echo "Installing category Other"
 
 
 echo "Installing category System"
-
 sh AUR/install-downgrade-v*.sh
 sh AUR/install-inxi-v*.sh
 sh AUR/install-neofetch-v*.sh
