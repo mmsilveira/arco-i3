@@ -48,6 +48,7 @@ echo "Installing category Graphics"
 #sudo pacman -S --noconfirm --needed inkscape          # Inkscape is a professional vector graphics editor
 #sudo pacman -S --noconfirm --needed pinta             # Pinta is a free, open source program for drawing and image editing
 #sudo pacman -S --noconfirm --needed gpick             # Gpick is an advanced color picker and palette editing tool
+#sudo pacman -S --noconfirm --needed nomacs            # Omacs is a free, open source image viewer, which supports multiple platforms
 sudo pacman -S --noconfirm --needed gnome-font-viewer # GNOME Fonts shows you the fonts installed on your computer
 sudo pacman -S --noconfirm --needed ristretto         # Ristretto is a fast and lightweight image viewer for the Xfce desktop
 #sudo pacman -S --noconfirm --needed
