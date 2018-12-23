@@ -60,7 +60,7 @@ echo "Installing category Internet"
 #sudo pacman -S --noconfirm --needed transmission-cli # Transmission is a BitTorrent client that run in terminal
 #sudo pacman -S --noconfirm --needed transmission-gtk # Transmission is a BitTorrent client GTK UI
 sudo pacman -S --noconfirm --needed firefox           # Browser
-sudo pacman -S --noconfirm --needed brave             # Browser
+#sudo pacman -S --noconfirm --needed brave             # Browser
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Multimedia"
@@ -92,7 +92,6 @@ echo "Installing category System"
 #sudo pacman -S --noconfirm --needed ffmpegthumbnailer     # It is a lightweight video thumbnailer that can be used by file managers to create thumbnails for your video files
 #sudo pacman -S --noconfirm --needed glances               # Glances is a cross-platform system monitoring tool written in Python
 #sudo pacman -S --noconfirm --needed gnome-keyring         # GNOME Keyring is a software application designed to store security credentials
-#sudo pacman -S --noconfirm --needed gnome-terminal        # GNOME Terminal is a terminal emulator for the GNOME desktop environment
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool      # GNOME Tweak Tool to customize the GNOME 3 Desktop Environment
 #sudo pacman -S --noconfirm --needed gparted               # GParted is a free partition editor for graphically managing your disk partitions
 #sudo pacman -S --noconfirm --needed mlocate               # mlocate is a merging locate and database package
@@ -123,6 +122,7 @@ sudo pacman -S --noconfirm --needed ttf-droid
 # TODO: NerdFonts Hack and SourceCode
 
 sudo pacman -S --noconfirm --needed terminator            # Terminator is a Linux terminal emulator that provides several features
+sudo pacman -S --noconfirm --needed gnome-terminal        # GNOME Terminal is a terminal emulator for the GNOME desktop environment
 sudo pacman -S --noconfirm --needed gtk-engine-murrine    # The Murrine GTK Theme Engine
 sudo pacman -S --noconfirm --needed arc-gtk-theme         # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
 sudo pacman -S --noconfirm --needed baobab                # Disk Usage Analyzer is a graphical

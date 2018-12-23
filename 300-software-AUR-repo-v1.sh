@@ -46,9 +46,9 @@ echo "Installing category Internet"
 
 
 echo "Installing category Multimedia"
-sh AUR/install-gradio-v*.sh
-sh AUR/install-peek-v*.sh
-sh AUR/install-radiotray-v*.sh
+#sh AUR/install-gradio-v*.sh     # online radio
+#sh AUR/install-peek-v*.sh       # GIF screeen record
+#sh AUR/install-radiotray-v*.sh  # online radio
 
 
 echo "Installing category Office"
@@ -58,22 +58,25 @@ echo "Installing category Other"
 
 
 echo "Installing category System"
-sh AUR/install-downgrade-v*.sh
-sh AUR/install-inxi-v*.sh
-sh AUR/install-neofetch-v*.sh
+#sh AUR/install-downgrade-v*.sh                   # Eases downgrading packages in Arch Linux.
+#sh AUR/install-neofetch-v*.sh                    # Neofetch is a command-line system information tool
+#sh AUR/install-virtualbox-for-linux-v*.sh
+#sh AUR/install-oxy-neon-v*.sh                    # Stylized oxygen mouse theme created for use with dark desktop and especially for FRUiT's Neon suite
+#sh AUR/install-screenkey-v*.sh                   # A screencast tool to display your keys inspired by Screenflick
+#sh AUR/install-xcursor-breeze-v*.sh              # Breeze cursor theme (KDE Plasma 5)
+
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
-sh AUR/install-oxy-neon-v*.sh
-sh AUR/install-pamac-aur-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
 sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-sardi-icons-v*.sh
 sh AUR/install-sardi-extra-icons-v*.sh
-sh AUR/install-screenkey-v*.sh
 sh AUR/install-surfn-icons-git-v*.sh
+
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
-sh AUR/install-virtualbox-for-linux-v*.sh
-sh AUR/install-xcursor-breeze-v*.sh
+
+sh AUR/install-inxi-v*.sh                        # Inxi is a command-line system information tool designed for Linux systems to find hardware and system information
+sh AUR/install-pamac-aur-v*.sh                   # Pamac is a GUI Software Management
 
 # these come always last
 
