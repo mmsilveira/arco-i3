@@ -24,8 +24,8 @@ set -e
 echo "Installing category Accessories"
 #sh AUR/install-cool-retro-term-v*.sh   # is a terminal emulator which mimics the look and feel of the old cathode tube screens
 #sh AUR/install-mintstick-git-v*.sh     # Actually mintstick is an improved version of USB-ImageWriter
-sh AUR/install-conky-lua-archers-v*.sh # A free, light-weight system monitor for X with lua enabled for Arch based distros
-sh AUR/install-temps-v*.sh             # Temps is a modern and minimal menubar application with actual weather information and forecast
+#sh AUR/install-conky-lua-archers-v*.sh # A free, light-weight system monitor for X with lua enabled for Arch based distros
+#sh AUR/install-temps-v*.sh             # Temps is a modern and minimal menubar application with actual weather information and forecast
 
 
 echo "Installing category Development"
@@ -65,15 +65,14 @@ echo "Installing category System"
 #sh AUR/install-screenkey-v*.sh                   # A screencast tool to display your keys inspired by Screenflick
 #sh AUR/install-xcursor-breeze-v*.sh              # Breeze cursor theme (KDE Plasma 5)
 
-sh AUR/install-numix-circle-icon-theme-git-v*.sh
-sh AUR/install-paper-icon-theme-git-v*.sh
-sh AUR/install-papirus-icon-theme-git-v*.sh
-sh AUR/install-sardi-icons-v*.sh
-sh AUR/install-sardi-extra-icons-v*.sh
-sh AUR/install-surfn-icons-git-v*.sh
-
-sh AUR/install-ttf-font-awesome-v*.sh
-sh AUR/install-ttf-mac-fonts-v*.sh
+#sh AUR/install-numix-circle-icon-theme-git-v*.sh
+#sh AUR/install-paper-icon-theme-git-v*.sh
+#sh AUR/install-papirus-icon-theme-git-v*.sh
+#sh AUR/install-sardi-icons-v*.sh
+#sh AUR/install-sardi-extra-icons-v*.sh
+#sh AUR/install-surfn-icons-git-v*.sh
+#sh AUR/install-ttf-font-awesome-v*.sh
+#sh AUR/install-ttf-mac-fonts-v*.sh
 
 sh AUR/install-inxi-v*.sh                        # Inxi is a command-line system information tool designed for Linux systems to find hardware and system information
 sh AUR/install-pamac-aur-v*.sh                   # Pamac is a GUI Software Management

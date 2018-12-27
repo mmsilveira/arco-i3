@@ -110,19 +110,19 @@ echo "Installing category System"
 #sudo pacman -S --noconfirm --needed xdg-user-dirs         # xdg-user-dirs is a tool to help manage "well known" user directories like the desktop folder and the music folder
 #sudo pacman -S --noconfirm --needed zenity                # display dialog boxes from the commandline and shell scripts
 #sudo pacman -S --noconfirm --needed scrot                 # Better command line utility for taking screenshots
+#sudo pacman -S --noconfirm --needed gnome-terminal        # GNOME Terminal is a terminal emulator for the GNOME desktop environment
 
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed wget
 
-sudo pacman -S --noconfirm --needed noto-fonts
-sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
-sudo pacman -S --noconfirm --needed ttf-droid
+#sudo pacman -S --noconfirm --needed noto-fonts
+#sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
+#sudo pacman -S --noconfirm --needed ttf-droid
 # TODO: NerdFonts Hack and SourceCode
 
 sudo pacman -S --noconfirm --needed terminator            # Terminator is a Linux terminal emulator that provides several features
-sudo pacman -S --noconfirm --needed gnome-terminal        # GNOME Terminal is a terminal emulator for the GNOME desktop environment
 sudo pacman -S --noconfirm --needed gtk-engine-murrine    # The Murrine GTK Theme Engine
 sudo pacman -S --noconfirm --needed arc-gtk-theme         # A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
 sudo pacman -S --noconfirm --needed baobab                # Disk Usage Analyzer is a graphical
